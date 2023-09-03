@@ -136,13 +136,6 @@ def crop_recommendation_data_prep(dataframe):
 
 X, y = crop_recommendation_data_prep(df)
 
-X.head(10)
-
-list(y.inverse_transform)
-
-dff.head(10)
-
-label_encoded = LabelEncoder().fit_transform(df["label"])
 
 ##############################
 #BASE MODELS
