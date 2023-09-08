@@ -15,7 +15,7 @@ from sklearn.svm import SVC
 from sklearn.tree import DecisionTreeClassifier
 from xgboost import XGBClassifier
 from lightgbm import LGBMClassifier
-from helpers import check_df, grab_col_names, correlation_matrix, plot_importance, crop_recommendation_data_prep, base_models, test_base_model, plot_importance
+from helpers import check_df, grab_col_names, correlation_matrix, plot_importance, crop_recommendation_data_prep, base_models, test_base_model, plot_importance, voting_classifier
 from config import lr_params, knn_params, cart_params, rf_params, lightgbm_params, classifiers, hyperparameter_optimization
 import joblib
 
